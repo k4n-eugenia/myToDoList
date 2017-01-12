@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_create_category"
+        android:title="@string/category"
+        android:orderInCategory="100"
+
+        />
+
+    <item android:id="@+id/action_create_list_to_do"
+        android:title="@string/list_to_do"
+        android:orderInCategory="100"
+        />
+
+    <item android:id="@+id/action_create_shopping_list"
+        android:title="@string/shopping_list"
+        android:orderInCategory="100"
+        />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        />
+
+</menu>
